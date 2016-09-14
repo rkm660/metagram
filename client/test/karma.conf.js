@@ -27,10 +27,10 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
-      'test/mock/**/*.js',
-      'test/spec/**/*.js'
-    ],
+      'test/spec/**/*.js',
 
+    ],
+    reporters: ['progress'],
     // list of files / patterns to exclude
     exclude: [
     ],

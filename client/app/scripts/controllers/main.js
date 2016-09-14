@@ -9,9 +9,5 @@
  */
 angular.module('app')
   .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  	this.test = ['Asdf','asdf','asdf'];
   });

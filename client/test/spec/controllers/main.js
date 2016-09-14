@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('clientApp'));
+  beforeEach(module('app'));
 
   var MainCtrl,
     scope;
@@ -17,7 +17,7 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(MainCtrl.awesomeThings.length).toBe(3);
+  it('', function () {
+    expect(MainCtrl.test.length).toBe(3);
   });
 });
